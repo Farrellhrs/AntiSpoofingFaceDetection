@@ -9,3 +9,5 @@ pandas
 tqdm
 tensorboardX
 scikit-learn
+streamlit
+pillow
