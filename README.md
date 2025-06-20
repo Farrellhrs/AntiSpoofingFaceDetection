@@ -25,6 +25,20 @@ Install required packages using:
 pip install -r requirements.txt
 ```
 
+### 🤖 Model Files
+**Download the required model files** and place them in the `saved_models/` directory:
+
+| Model File | Size | Description |
+|------------|------|-------------|
+| `AntiSpoofing_bin_1.5_128.onnx` | ~50MB | Enhanced anti-spoofing model |
+| `AntiSpoofing_bin_128.onnx` | ~30MB | Basic anti-spoofing model |
+| `yolov5s-face.onnx` | ~30MB | Face detection model |
+
+**📥 Download Links:**
+- **Option 1**: Check the [Releases](https://github.com/Farrellhrs/AntiSpoofingFaceDetection/releases) section
+- **Option 2**: Run `bash download_models.sh` (when available)
+- **Option 3**: Contact the repository owner for model access
+
 **Required packages:**
 - opencv-python
 - torch
